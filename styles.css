@@ -485,6 +485,60 @@ section {
   color: var(--muted);
 }
 
+.lesson-support {
+  display: grid;
+  grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 18px;
+  margin-top: 18px;
+  padding-top: 18px;
+  border-top: 1px solid var(--line);
+}
+
+.lesson-support h4,
+.practice-set h4 {
+  margin: 0 0 8px;
+  color: var(--green);
+  font-size: 17px;
+}
+
+.lesson-support p {
+  margin: 0;
+  color: #41525d;
+}
+
+.textbook-types {
+  color: #41525d;
+}
+
+.practice-set {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px dashed #c9d5d7;
+}
+
+.practice-set details {
+  border-bottom: 1px solid var(--line);
+}
+
+.practice-set summary {
+  cursor: pointer;
+  padding: 11px 0;
+  color: #1c2a31;
+  font-weight: 800;
+}
+
+.practice-set summary:hover {
+  color: var(--blue);
+}
+
+.practice-set p {
+  margin: 0 0 12px;
+  padding: 11px 13px;
+  color: #31414b;
+  background: #fff8de;
+  border-left: 4px solid var(--gold);
+}
+
 ul {
   margin: 0;
   padding-left: 20px;
@@ -763,6 +817,7 @@ li + li {
   .challenge-grid,
   .content-columns,
   .study-pair,
+  .lesson-support,
   .hard-grid,
   .timeline,
   .chapter-nav,
