@@ -106,7 +106,7 @@ button {
 .hero-shade {
   position: absolute;
   inset: 0;
-  background: rgba(15, 24, 30, 0.62);
+  background: linear-gradient(90deg, rgba(15, 24, 30, 0.32), rgba(15, 24, 30, 0.2));
 }
 
 .hero-content {
